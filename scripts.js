@@ -22,7 +22,7 @@ function calcularMedia() {
   const media = soma / 4
   const notaFixada = media.toFixed(1)
 
-  if(notaFixada >= 11) {
+  if(notaFixada >= 10) {
     return resultado.innerHTML = `Nota Invalida ${notaFixada}`
   }else if(notaFixada <= -1) {
     return resultado.innerHTML = `Nota Invalida ${notaFixada}`
